@@ -1,4 +1,4 @@
-# workday-scheduler
+# Description
 This is a functional workday scheduler that utilizes JS and CSS frameworks like jQuery, Moment.js, and Bootstrap
 
 # Screenshot
