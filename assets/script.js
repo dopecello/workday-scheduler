@@ -1,14 +1,13 @@
 
-//Setting Time Display
-const timeSelector = document.getElementById("currentDay")
-let rightNow = moment().format('MMMM Do YYYY, h:mm:ss A');
 function timeDisplay() {
+    const timeSelector = document.getElementById("currentDay")
+    let rightNow = moment().format('MMMM Do YYYY, h:mm:ss A');
     timeSelector.innerHTML = rightNow
+
 }
 timeDisplay()
-//End Time Display
 
-function convertTimes() {
+function auditTimes() {
     let currentHour = moment().hour();
     $(".time-block").each(function () {
         const timeBlock = parseInt($(this).attr("id"))
@@ -29,5 +28,6 @@ function convertTimes() {
         }
     })
 }
-convertTimes()
+auditTimes()
+
 
